@@ -13,10 +13,6 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get('/', function(req, res) {
-  res.send('hello world');
-});
-
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
   // like our main.js file, or main.css file!
