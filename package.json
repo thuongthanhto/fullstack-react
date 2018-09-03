@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-react",
+  "version": "1.0.0",
+  "description": "Fullstack react + express + passport + sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuongthanhto/fullstack-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuongthanhto/fullstack-react/issues"
+  },
+  "homepage": "https://github.com/thuongthanhto/fullstack-react#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
